@@ -137,7 +137,7 @@ Content-Type: application/json
 
 Berikut adalah screenshot dari endpoint register di Postman:
 
-![Postman Login Screenshot](./postman_screenshot/postman_register.png)
+![Postman register Screenshot](./postman_screenshot/postman_register.png)
 
 ### Login User
 
@@ -213,6 +213,11 @@ Content-Type: application/json
   "message": "User with this email already exists"
 }
 ```
+## Postman Screenshot
+
+Berikut adalah screenshot dari endpoint create pengguna di Postman:
+
+![Postman Create Screenshot](./postman_screenshot/postman_create_pengguna.png)
 
 ### Get All Users
 
@@ -242,6 +247,12 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 ]
 ```
 
+## Postman Screenshot
+
+Berikut adalah screenshot dari endpoint get all pengguna di Postman:
+
+![Postman get all pengguna Screenshot](./postman_screenshot/postman_get_all_data.png)
+
 ### Get User by ID
 
 **Request:**
@@ -268,6 +279,12 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
   "message": "User not found"
 }
 ```
+
+## Postman Screenshot
+
+Berikut adalah screenshot dari endpoint get by id pengguna di Postman:
+
+![Postman get by id Screenshot](./postman_screenshot/postman_get_all_data.png)
 
 ### Update User
 
@@ -301,9 +318,21 @@ Content-Type: application/json
 }
 ```
 
+## Postman Screenshot
+
+Berikut adalah screenshot dari endpoint edit pengguna di Postman:
+
+![Postman edit pengguna Screenshot](./postman_screenshot/postman_edit_pengguna.png)
+
 ### Delete User
 
 **Request:**
 ```http
 DELETE /api/users/1
 Authorization: Bearer eyJhbGciO
+
+## Postman Screenshot
+
+Berikut adalah screenshot dari endpoint delete pengguna di Postman:
+
+![Postman edit pengguna Screenshot](./postman_screenshot/postman_delete_pengguna.png)
