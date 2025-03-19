@@ -44,17 +44,10 @@ func Register(db *gorm.DB) http.HandlerFunc {
 			return
 		}
 
-		// Generate token
-		token, err := generateToken(user.ID)
-		if err != nil {
-			utils.RespondWithError(w, http.StatusInternalServerError, "Error generating token")
-			return
-		}
-
-		// Create response
-		response := models.LoginResponse{
-			Token: token,
-			User:  user.ToUserResponse(),
+		// Create response register
+		response := map[string]interface{}{
+			"message": "Register successful",
+			"user":    user.ToUserResponse(),
 		}
 
 		utils.RespondWithJSON(w, http.StatusCreated, response)
@@ -92,10 +85,11 @@ func Login(db *gorm.DB) http.HandlerFunc {
 			return
 		}
 
-		// Create response
-		response := models.LoginResponse{
-			Token: token,
-			User:  user.ToUserResponse(),
+		// Create response login
+		response := map[string]interface{}{
+			"message": "Login successful",
+			"token":   token,
+			"user":    user.ToUserResponse(),
 		}
 
 		utils.RespondWithJSON(w, http.StatusOK, response)
