@@ -135,9 +135,9 @@ Content-Type: application/json
 
 ## Postman Screenshot
 
-Berikut adalah screenshot dari endpoint login di Postman:
+Berikut adalah screenshot dari endpoint register di Postman:
 
-![Postman Login Screenshot](./postman_screenshot/postman_login/screenshot.png)
+![Postman Login Screenshot](./postman_screenshot/postman_register.png)
 
 ### Login User
 
@@ -178,7 +178,7 @@ Content-Type: application/json
 
 Berikut adalah screenshot dari endpoint login di Postman:
 
-![Postman Login Screenshot](./postman_screenshot/postman_login/screenshot.png)
+![Postman Login Screenshot](./postman_screenshot/postman_login.png)
 
 ### Create User
 
