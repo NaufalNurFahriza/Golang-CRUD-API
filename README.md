@@ -1,3 +1,8 @@
+# Nama pembuat
+
+Nama: Naufal Nur Fahriza
+Role: Programmer Golang
+
 # Go RESTful API - User CRUD
 
 API RESTful yang dibangun dengan Go untuk melakukan operasi CRUD pada resource pengguna (user) dengan fitur autentikasi menggunakan Bearer Token dan MySQL sebagai database.
@@ -128,6 +133,12 @@ Content-Type: application/json
 }
 ```
 
+## Postman Screenshot
+
+Berikut adalah screenshot dari endpoint login di Postman:
+
+![Postman Login Screenshot](./postman_screenshot/postman_login/screenshot.png)
+
 ### Login User
 
 **Request:**
@@ -162,6 +173,12 @@ Content-Type: application/json
   "message": "Invalid email or password"
 }
 ```
+
+## Postman Screenshot
+
+Berikut adalah screenshot dari endpoint login di Postman:
+
+![Postman Login Screenshot](./postman_screenshot/postman_login/screenshot.png)
 
 ### Create User
 
