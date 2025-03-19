@@ -284,7 +284,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 Berikut adalah screenshot dari endpoint get by id pengguna di Postman:
 
-![Postman get by id Screenshot](./postman_screenshot/postman_get_all_data.png)
+![Postman get by id Screenshot](./postman_screenshot/postman_get_by_id_pengguna.png)
 
 ### Update User
 
