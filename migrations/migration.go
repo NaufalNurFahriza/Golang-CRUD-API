@@ -3,7 +3,7 @@ package migrations
 import (
 	"log"
 
-	"go-restapi-crud/models"
+	"golang_MySQL/models"
 
 	"gorm.io/gorm"
 )

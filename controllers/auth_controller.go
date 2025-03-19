@@ -9,8 +9,8 @@ import (
 	"github.com/golang-jwt/jwt/v4"
 	"gorm.io/gorm"
 
-	"go-restapi-crud/models"
-	"go-restapi-crud/utils"
+	"golang_MySQL/models"
+	"golang_MySQL/utils"
 )
 
 // Register handles user registration

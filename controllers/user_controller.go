@@ -9,8 +9,8 @@ import (
 	"github.com/gorilla/mux"
 	"gorm.io/gorm"
 
-	"go-restapi-crud/models"
-	"go-restapi-crud/utils"
+	"golang_MySQL/models"
+	"golang_MySQL/utils"
 )
 
 // CreateUser creates a new user

@@ -10,9 +10,9 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 
-	"go-restapi-crud/controllers"
-	"go-restapi-crud/middlewares"
-	"go-restapi-crud/models"
+	"golang_MySQL/controllers"
+	"golang_MySQL/middlewares"
+	"golang_MySQL/models"
 )
 
 func main() {

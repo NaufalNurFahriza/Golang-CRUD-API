@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"go-restapi-crud/utils"
+	"golang_MySQL/utils"
 
 	"github.com/golang-jwt/jwt/v4"
 )
